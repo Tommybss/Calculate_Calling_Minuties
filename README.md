@@ -10,3 +10,5 @@ Calc_Fence_Cost - This code will allow the user to input the dimensions of 1 sid
 
 Calc_Fence_Width_Length - This code will ask user to input Length and Width and deterimne the total length (assuming the corresponding length
 and width is the same). This will then determine the cost based in $.
+
+Calc_Check_Amount - This code will calulate the check amount upon user input
