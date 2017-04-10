@@ -1,14 +1,22 @@
-# References
+# References for each .vb 
+Each .vb was actually its own application. Since these are all smaller applications, I combined all of my code into this repo to save
+time and space. Please see each category below to see what the code is doing.
 
-Calc_Minutes - This code will allow the user to select if they are calling in the morning, at night or at an off-peak time
-which is associatied with specific money coded in the .vb. This will ask for the user input and caluclate based off the input
+  Arrays.vb - This code will allow the users to randomly generate or enter numbers using a text field. The user will then be able to find the high
+and low range off all the values that were entered. The user can also sort and find the average of each array that is stored.
 
-Calc_Dollar_CHange - This code will allow the user to input an amount in $ and it will take that amount and break it down in
-the most efficent way using Dollars, Quarters, Dimes, Nickles and Pennies
+  BankCharges.vb - This code will let users enter a value to start with and then enter their charges as they occur. The application will then
+take the numbers that were entered to calucate the users balance. 
 
-Calc_Fence_Cost - This code will allow the user to input the dimensions of 1 side. Assuming the fence is a perfect square, the perimiter is then calculated base on the suer input x4. This fence price is hard coded and will spit out a cost in $.
+  FenceCost.vb - This code will let users enter a number for a side of a fence. This application will assume the fence is sqaure and do
+calculations accordingly.
+  
+  FenceCost_With_Two_Inputs.vb - This code will let users enter a number for the side (width and length) for a fence. This application will
+assume the opposite side of the fence is = to the side you entered and do calucations accordingly.
 
-Calc_Fence_Width_Length - This code will ask user to input Length and Width and deterimne the total length (assuming the corresponding length
-and width is the same). This will then determine the cost based in $.
+  LongDistanceCalls.vb - This code will allow users to enter random number of minutes and do calucations based on the time of the day. 
+  
+  MakingChange.vb - This code will allow users to enter any $ amount value and it will make change based on calucations I created in the code. 
+This change is relatvie and should always calucate based on the lowest $ amount. 
 
-Calc_Check_Amount - This code will calulate the check amount upon user input
+  RollingDice.vb - This code will simulate rolling dice
